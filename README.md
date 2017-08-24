@@ -99,9 +99,23 @@ set hlsearch
 nnoremap <leader><leader> <c-^>
 ```
 
+## Let's start
+
+```bash
+$ git clone git://github.com/functional-koans/clojure-koans.git
+$ cd clojure-koans
+$ lein koan run
+$ vim src/koans/01_equalities.clj
+
+```
+
+## Links
+
+[Clojure API Cheatsheet](https://clojure.org/api/cheatsheet)
+
 ## License
 
-Copyright © 2017 FIXME
+Copyright © 2017 Lab Of New
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
